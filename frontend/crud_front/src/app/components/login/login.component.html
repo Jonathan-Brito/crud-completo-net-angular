@@ -1,0 +1,32 @@
+<div class="d-flex align-items-center py-4 bg-body-tertiary h-100">
+    <div class="w-100 m-auto form-container">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <h3 class="h5 mb-2 fw-light">Por favor, inicie a sessão</h3>
+
+        <div class="form-floating my-3">
+          <input type="email" class="form-control" placeholder="E-mail" formControlName="email"
+          [ngClass]="{ 'is-invalid': submitted && f.email.errors }"/>
+          <label for="floatingInput">E-mail</label>
+          <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+            <div *ngIf="f.email.errors.required">{{'E-mail é requerido'}}</div>
+            <div *ngIf="f.email.errors.email">{{'Infome E-mail válido'}}</div>
+          </div>
+        </div>
+
+        <div class="form-floating my-3" >
+          <input type="password" class="form-control" placeholder="Senha" formControlName="senha"
+          [ngClass]="{ 'is-invalid': submitted && f.senha.errors }">
+          <label for="floatingInput">Senha</label>
+          <div *ngIf="submitted && f.senha.errors" class="invalid-feedback">
+            <div *ngIf="f.senha.errors.required">{{'Senha é requerido'}}</div>
+          </div>
+        </div>
+
+        <button class="btn btn-dark  w-100 py-2">Inicie Sessão</button>
+        <hr class="hr-light mb-3 mt-4">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <div>Ainda não tem conta?</div><button class="btn btn-outline-dark btn-sm" type="button" routerLink="/adicionarusuario">Cadastra-se</button>
+        </div>
+      </form>
+</div>
+
