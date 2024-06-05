@@ -1,0 +1,17 @@
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.Services.deps.json
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.Services.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.Services.pdb
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.AssemblyInfoInputs.cache
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.AssemblyInfo.cs
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\refint\CadastroUsuario.Services.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.pdb
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\ref\CadastroUsuario.Services.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\CadastroUsuario.Services.csproj.AssemblyReference.cache
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.Domain.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.InfraData.dll
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.Domain.pdb
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\bin\Debug\net8.0\CadastroUsuario.InfraData.pdb
+C:\Users\Felipe\Desktop\ProjetoGrupo\src\CadastroUsuario.Services\obj\Debug\net8.0\Cadastro.E59DA8E8.Up2Date
