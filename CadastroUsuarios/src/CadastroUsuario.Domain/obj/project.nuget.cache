@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DNeZRyKMui8=",
+  "dgSpecHash": "GdIeC5Dy76g=",
   "success": true,
-  "projectFilePath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
+  "projectFilePath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

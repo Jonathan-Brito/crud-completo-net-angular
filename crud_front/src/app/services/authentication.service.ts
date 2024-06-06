@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class AuthenticationService {
 
-  private readonly API = 'Http://localhost:5260/api/login';
+  private readonly API = 'http://localhost:5260/api/Login';
 
   constructor(
     private http: HttpClient,

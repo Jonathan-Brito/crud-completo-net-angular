@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
+      "projectUniqueName": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
       "projectName": "CadastroUsuario.Domain",
-      "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
+      "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\obj\\",
+      "outputPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

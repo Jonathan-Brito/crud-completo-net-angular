@@ -4128,11 +4128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj",
+      "projectUniqueName": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj",
       "projectName": "CadastroUsuario.InfraData",
-      "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj",
+      "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\obj\\",
+      "outputPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4150,8 +4150,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj": {
-              "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj"
+            "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj": {
+              "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj"
             }
           }
         }

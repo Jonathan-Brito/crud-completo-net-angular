@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7S/rm9HZ5+o=",
+  "dgSpecHash": "onYD0kIoFhE=",
   "success": true,
-  "projectFilePath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
+  "projectFilePath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

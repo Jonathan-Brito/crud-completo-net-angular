@@ -3707,11 +3707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
+      "projectUniqueName": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
       "projectName": "CadastroUsuarios.API",
-      "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
+      "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\CadastroUsuarios.API.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\obj\\",
+      "outputPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuarios.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3729,14 +3729,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj": {
-              "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj"
+            "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj": {
+              "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Domain\\CadastroUsuario.Domain.csproj"
             },
-            "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj": {
-              "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj"
+            "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj": {
+              "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.InfraData\\CadastroUsuario.InfraData.csproj"
             },
-            "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Services\\CadastroUsuario.Services.csproj": {
-              "projectPath": "D:\\PROJETOS\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Services\\CadastroUsuario.Services.csproj"
+            "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Services\\CadastroUsuario.Services.csproj": {
+              "projectPath": "D:\\PROJETOS\\teste\\crud-completo-net-angular\\CadastroUsuarios\\src\\CadastroUsuario.Services\\CadastroUsuario.Services.csproj"
             }
           }
         }

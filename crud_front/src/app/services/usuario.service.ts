@@ -9,7 +9,7 @@ import {Categoria} from "../models/Categoria";
 })
 export class UsuarioService {
 
-  private readonly API = 'http://localhost:5260/api/Usuario'
+  private readonly API = 'http://localhost:5260/api/Usuario';
 
   constructor(
     private http: HttpClient
