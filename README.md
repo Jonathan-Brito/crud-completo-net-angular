@@ -61,71 +61,62 @@ Após concluído o desafio, disponibilizar o código no git e colar o link na ca
 
 Boa sorte!
 
+``` 
+http://localhost:5260/swagger/index.html
+
 ```
-Method: POST
-URL: http://localhost:8080/
+
+
+```
+Method: POST /api/Login
+URL: http://localhost:5260/api/Login
 Body (json):
 {
-    "": "",
-    "senha": "1234"
+    "email": "devjonathanbrito@gmail.com",
+    "senha": "12345678"
 }
 ```
 #### Possíveis respostas:
 ```
-Criação com sucesso:
-   Status Code: 201
-   Body (json):
+Sucesso:
    {
-      "senha": "1234",
-      "numero": "6549873025634501"
-   } 
+  "user": {
+    "id": 1,
+    "nome": "Jonathan                 ",
+    "sobreNome": "Brito Costa    ",
+    "email": "devjonathanbrito@gmail.com                        ",
+    "senha": ""
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmpvbmF0aGFuYnJpdG9AZ21haWwuY29tICAgICAgICAgICAgICAgICAgICAgICAgIiwibmJmIjoxNzE3NjM2NDMxLCJleHAiOjE3MTc2NDM2MzEsImlhdCI6MTcxNzYzNjQzMX0.VkDJFBdOdZLRcsGASMjqz5OEy3jx2ceFDZ6XGteGrLc"
+}
 -----------------------------------------
-Caso o c já exista:
-   Status Code: 422
-   Body (json):
-   {
-      "senha": "1234",
-      "numero": "6549873025634501"
-   } 
+
 ```
 
-### Obter 
+## Usuario
+
+```
+### GET /api/Usuario
+
 ```
 Method: GET
-URL: http://localhost:8080/c/{numero} , onde {numero} é o número do c que se deseja consultar
+URL: ttp://localhost:5260/api/Usuario
+
 ```
 
 #### Possíveis respostas:
 ```
-Obtenção com sucesso:
-   Status Code: 200
-   Body: 495.15 
+[
+  {
+    "id": 1,
+    "nome": "Jonathan                 ",
+    "sobreNome": "Brito Costa    ",
+    "email": "devjonathanbrito@gmail.com                        ",
+    "senha": "12345678                      "
+  }
+]
 -----------------------------------------
-Caso o c não exista:
-   Status Code: 404 
-   Sem Body
-```
 
-### Realizar uma Transação
-```
-Method: POST
-URL: http://localhost:8080/t
-Body (json):
-{
-    "numero": "6549873025634501",
-    "senha": "1234"
-}
-```
-
-#### Possíveis respostas:
-```
-Transação realizada com sucesso:
-   Status Code: 201
-   Body: OK 
------------------------------------------
-Caso alguma regra de autorização tenha barrado a mesma:
-   Status Code: 422 
-   Body:  (dependendo da regra que impediu)
 ```
 
 #### Autores
@@ -137,45 +128,57 @@ Caso alguma regra de autorização tenha barrado a mesma:
 
 ### Tecnologias
 
-* 
-* 
-* 
+* .NET
+* Angular
+* Docker
+* SQL SEVER
 
 
 #### Ambientes de execução
 
-O projeto pode se executado em ambiente de Teste que o roda o banco de dados H2 em  `test/resources/application`.
+O projeto pode se executado em ambiente de Teste que o roda o banco de dados SQL Server.
 
 *Configurando a execução em modo Test*
 
-### Executando a aplicação
+### Executando a aplicação front end
+
+```
+ng build
+ng serve
+
+```
+
+### Executando a aplicação back end
+
+```
+dotnet build
+dotnet run
+
+```
 
 Para executar a aplicação é simples, basta abrir a classe `` e ativar  `run` ou `debug` em sua IDE.
 
-ou executar o comando abaixo:
+Inicializar via docker executar o comando abaixo:
 
-```shell
+```
+docker-compose build --no-cache --progress=plain
+docker-compose up --build
 
 ```
 
 ### Endpoint OpenAPI Swagger
 
-1. [x] [http://localhost:8080/index.htm](http://localhost:8080/index.htm)
+1. [x] [http://localhost:5260/swagger/index.html](http://localhost:5260/swagger/index.html)
 
 ## Pré-requisitos
 
 - [Docker](https://www.docker.com/get-started)
 - [](https:///download.cgi) (para construir o arquivo)
 
-### Construir o arquivo 
-
-```bash
-
-```
 ### Construir a imagem Docker
 
 docker build -t sua-aplicacao:latest .
 
 ### Executar o contêiner Docker
 
-docker run -p 8080:8080 sua-aplicacao
+docker run -p portas:portas sua-aplicacao

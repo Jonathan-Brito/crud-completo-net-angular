@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: CadastroUsuarios/Dockerfile
+    ports:
+      - "5000:80"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: crud_front/Dockerfile
+    ports:
+      - "3000:80"
